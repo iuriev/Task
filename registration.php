@@ -49,7 +49,7 @@ $message = "Здравствуйте! Спасибо за регистрацию
             Ваш логин: ".$email."\n
             Для того чтобы войти в свой аккуант его нужно активировать.\n
             Чтобы активировать ваш аккаунт, перейдите по ссылке:\n
-            proj/activation.php?email=".$email."&act=".$activation."\n\n
+            ".BASE_URL."/activation.php?email=".$email."&act=".$activation."\n\n
             С уважением, Администрация сайта";
  mail($to,$subject,$message);
 if ($result2=='TRUE'){

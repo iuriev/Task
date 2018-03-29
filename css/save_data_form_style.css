@@ -48,7 +48,7 @@ input[type="submit"]:disabled{
     transition: opacity .5s;
 }
 .popup, .popup2{
-    display: inline-block;
+
     left: 50%;
     opacity: 0;
     position: fixed;
@@ -71,8 +71,8 @@ input[type="submit"]:disabled{
 .popup form {
     padding: 0 27px 20px;
     right: 0;
-
-    background: rgba(255, 255, 255, 0.85);
+    width: 250px;
+    background: grey;
     border-radius: 5px;
 
 }
@@ -81,10 +81,9 @@ input[type="submit"]:disabled{
     padding: 0 27px 27px;
     right: 0;
     width: 373px;
-    background: rgba(255, 255, 255, 0.85);
+    background: grey;
     border-radius: 5px;
-    border: 1px solid #72bffc;
-    border-top: 40px solid #72bffc;
+
 }
 
 .popup form input {
