@@ -7,18 +7,18 @@ $(document).ready(function(){
                 required: true, 
                 minlength: 1,
                 maxlength: 16, 
-            }
+            },
 
             email:{
                 required: true,
                 email: true,
-            }
+            },
                
             password:{
                 required: true, 
                 minlength: 1,
                 maxlength: 16,
-            }
+            },
        },
       
        messages:{
