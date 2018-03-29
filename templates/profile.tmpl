@@ -1,0 +1,42 @@
+  {% include 'header.tmpl' %}
+    {% include 'menu.tmpl' %}
+
+<div class = "content">
+
+
+<p>Здравствуйте, {{name}}!
+<br> На этой странице вы можете просмотреть ваши персональные данные,
+ или изменить ваше имя и пароль для входа на сайт. </p>
+
+<p> Ваши персональные данные:</p>
+<p>Ваше имя:<br><input type="text" name="name" value="{{name}}" readonly/></p>
+<p>Ваш email:<br><input type="text" name="email" value="{{email}}" readonly/></p>
+<p>Ваш пароль:<br><input type="password" name="password" value="{{email}}" readonly/></p>
+<input type="submit" class="open_modal" value="Редактировать"  >
+<div class="overlay"></div>
+    <div class="popup">
+        <div class="close_modal">x</div>
+            <form class="fofm" action="">
+                <h5>Введите  данные</h5><br>
+                <p>Ваше имя:<br><input type="text" name="name" value="{{name}}" /></p>
+                <p>Ваш пароль:<br><input type="password" name="password" value="{{password}}" /></p>
+              
+           
+                <input type="submit" class="button" value="Отправить"  name="btnsend">
+            </form>
+        </div>
+        <div class="popup2">
+            <div class="close_modal">x</div>
+                <div class="window">
+                    <div class="insText">
+                        <p>Изменеия успешно сохранены.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.tmpl' %}
+
+

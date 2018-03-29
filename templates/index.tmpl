@@ -1,0 +1,17 @@
+  {% include 'header.tmpl' %}
+    {% include 'menu.tmpl' %}
+    <div class = "content">
+      <form id="loginform" action="autorization.php" method="post">
+      <p>Ваш логин:<br><input type="email" name="email" /></p>
+      <p>Ваш пароль:<br><input type="password" name="password" /></p>
+      <input type="submit" name = "enter" value="ВХОД" />
+          <p><a href="reg_page.php">Регистрация</a></p>
+    </form>
+    {% if login_error == true  %}
+   <h2> Вы ввели неверный логин или пароль</h2>
+    {% elseif email_conf_error == true%}
+   {{ email_conf_error }}
+    <h2> Подтвердите ваш электронный адрес</h2>
+    {% endif %}
+
+{% include 'footer.tmpl' %}

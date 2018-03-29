@@ -1,0 +1,196 @@
+.error{
+  color: red;
+  text-align: center;
+
+}
+
+#body{
+	width: 980px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.footer{
+	text-align: center;
+	min-width:980px;
+	margin:30px;
+	padding: 10px;
+  	height: 30px;
+  	background-color: black;
+
+}
+
+.content{
+	text-align: center;
+	min-width:980px;
+	padding: 10px;
+}
+
+*, *::after, *::before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#mainmenu {
+background: #444;
+position: relative;
+overflow:hidden;
+min-width:980px;
+margin:10px
+}
+
+#mainmenu ul {
+list-style:none;
+margin:0;
+padding:0;
+position: relative;
+left:50%;
+float:left;
+}
+
+#mainmenu ul li {
+position:relative;
+left:-50%;
+float:left;
+}
+
+#mainmenu ul li a {
+color: #fff;
+display:block;
+text-decoration:none;
+padding:0 15px;
+}
+
+#mainmenu ul li a:hover {
+background-color:#666; 
+}
+
+#loginform p {
+	margin: 10px;
+}
+
+form label{
+text-align: center;
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error{
+  color: red;
+  text-align: center;
+
+}
+#body{
+	width: 980px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.footer
+{
+	text-align: center;
+	min-width:980px;
+	padding: 10px;
+  	height: 30px;
+  	background-color: black;
+
+}
+
+.content
+{
+	text-align: center;
+
+	min-width:980px;
+	padding: 10px;
+}
+
+*, *::after, *::before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+#mainmenu {
+background: #444;
+position: relative;
+overflow:hidden;
+min-width:980px;
+margin:10px
+}
+#mainmenu ul {
+list-style:none;
+margin:0;
+padding:0;
+position: relative;
+left:50%;
+float:left;
+
+}
+#mainmenu ul li {
+position:relative;
+left:-50%;
+float:left;
+
+}
+#mainmenu ul li a {
+color: #fff;
+display:block;
+text-decoration:none;
+padding:0 15px;
+}
+#mainmenu ul li a:hover {
+background-color:#666; 
+}
+
+#loginform p {
+	margin: 10px;
+}
+
+
+
+form label{
+text-align: center;
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

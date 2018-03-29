@@ -1,0 +1,11 @@
+  {% include 'header.tmpl' %}
+    {% include 'menu.tmpl' %}
+<div class = "content">
+	<form id="registration-form" action="registration.php" method="POST">
+		<p>Ваше имя:<br><input type="text" name="name" /></p>
+		<p>Ваш email:<br><input type="text" name="email" /></p>
+		<p>Ваш пароль:<br><input type="password" name="password" /></p>
+		<input type="submit"  value="Зарегистрироваться" />
+	</form>
+</div>
+{% include 'footer.tmpl' %}
